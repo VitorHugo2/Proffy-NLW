@@ -1,0 +1,160 @@
+#page-landing {
+    background-color: var(--color-primary);
+    display: flex;
+}
+
+#page-landing #container {
+    color: var(--color-text-in-primary);
+}
+
+.logo-container img {
+    height: 10rem;
+    /*está definindo o tamanho do titulo*/
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 3.2rem;
+    /*está alinhando os itens do container*/
+}
+
+.logo-container h2 {
+    font-weight: 500;
+    /*Está aumentando o peso do texto*/
+    font-size: 3.2rem;
+    /*define o tamanho do texto*/
+    line-height: 4.6rem;
+    /*define o tamanho do texto*/
+    margin-top: 0.8rem;
+    /*está adicionando uma margem ao topo do texto*/
+}
+
+.hero-image {
+    width: 100%;
+    /*isso seria 100% do container que está definido no main.css*/
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    /*para alinhar os botôes*/
+    margin: 3.2rem 0;
+}
+
+.buttons-container a {
+    width: 30rem;
+    height: 10.4rem;
+    /*define o tamanho desse botão*/
+    border-radius: 0.8rem;
+    /*define o arredondamento do botão*/
+    margin-right: 1.6rem;
+    /*está definindo a margem dos botoes*/
+    font: 700 2.4rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*está alinhando os textos*/
+    text-decoration: none;
+    /*está tirando qualquer decoração do texto*/
+    color: var(--color-button-text);
+    transition: background 0.2s;
+    /*esse comando adiciona tempo na transição de cor nos botoes*/
+}
+
+.buttons-container a.study {
+    background: var(--color-primary-lighter);
+}
+
+
+/*está definindo um estilo para quando o mouse passa por cima do botão*/
+
+.buttons-container a.study:hover {
+    background: var(--color-primary-light);
+}
+
+.buttons-container a.give-classes:hover {
+    background: var(--color-secondary-dark);
+}
+
+.buttons-container a.give-classes {
+    background: var(--color-secondary);
+    margin: 0;
+}
+
+.buttons-container a img {
+    width: 4rem;
+    margin-right: 2.4rem;
+}
+
+#total-conection {
+    font: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#total-conection img {
+    margin-left: 0.8rem;
+}
+
+
+/*está definindo uma regra onde quando o site for inicialçizado em um aparelho com mais de 1100px, o estilo irá mudar*/
+
+@media (max-width: 699px) {
+     :root {
+        font-size: 38%;
+    }
+    .logo-container img {
+        height: 7rem;
+    }
+}
+
+@media (min-width: 1100px) {
+    #page-landing #container {
+        max-width: 1100px;
+        display: grid;
+        /*define que o meu display será dividido em grades*/
+        grid-template-columns: 2fr 1fr 2fr;
+        /*define o tamanho das minhass colunas*/
+        grid-template-rows: 350px 1fr;
+        /*define o tamanho das minhas linhas*/
+        grid-template-areas: "proffy image image" "button button texting";
+        column-gap: 87px;
+        row-gap: 86px;
+        /*modifica a distancia dos grid*/
+    }
+    .logo-container {
+        grid-area: proffy;
+        text-align: initial;
+        align-self: center;
+        /*está alinhando corretamente os textos e imagens*/
+        margin: 0;
+    }
+    .logo-container img {
+        height: 127px;
+        /*ajusta o tamanho dos textos*/
+    }
+    .hero-image {
+        grid-area: image;
+        height: 350px;
+    }
+    .buttons-container {
+        grid-area: button;
+        justify-content: flex-start;
+        margin: 0;
+        /*modifica o alinhamento dos botoes*/
+    }
+    .total-conection {
+        font-size: 1.2rem;
+        grid-area: texting;
+        justify-self: end;
+        /*alinha o texto ao final do grid*/
+    }
+
+
+@media (min-width: 700px) {
+     :root {
+        font-size: 62.5%;
+        /*muda o tamanho da fonte em aparelhos menores*/
+    }
+}
