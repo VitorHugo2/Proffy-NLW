@@ -34,8 +34,8 @@
   ``` npm run dev ```
   
   ## 📥 Designer completo do site
-
-  <a href="https://www.figma.com/file/F3mfTLfFz1G1SAmRjSRroU/Proffy_Web" >
-    <img src="./figma-1.svg" width='20px' height="30px"/>
-  </a>
-
+  <button background-color="black">
+    <a href="https://www.figma.com/file/F3mfTLfFz1G1SAmRjSRroU/Proffy_Web" >
+      <img src= "https://img.shields.io/badge/Download Web-black?style=flat-square&logo=figma&logoColor=white" width="200px"/>
+    </a>
+  </button>
