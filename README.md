@@ -34,5 +34,8 @@
   ``` npm run dev ```
   
   ## 📥 Designer completo do site
- 
-  
+
+  <a href="https://www.figma.com/file/F3mfTLfFz1G1SAmRjSRroU/Proffy_Web" >
+    <img src="./figma.png"/>
+  </a>
+
