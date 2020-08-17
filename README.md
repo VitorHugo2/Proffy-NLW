@@ -36,6 +36,6 @@
   ## 📥 Designer completo do site
 
   <a href="https://www.figma.com/file/F3mfTLfFz1G1SAmRjSRroU/Proffy_Web" >
-    <img src="./figma.png"/>
+    <img src="./figma-1.svg" width='20px' height="30px"/>
   </a>
 
