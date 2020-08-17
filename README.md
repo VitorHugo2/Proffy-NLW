@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./logo.png"/>
+</p>
+
 ## 🔍 Sobre o projeto 
 
 <p>  Website desenvolvido durante a semana da NLW, na trilha discovery, junto com o mayk brito da Rocketseat. A ideia do site é homenagear o dia dos prfessores criando uma aplicação que posibilita qualquer professor divulgar seu trabalho e assim conseguir dar aulas. essa é a minha primeira aplicação para web! </p>
